@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution MooseX-Getopt-Explicit,
-version 0.01:
+version 0.02:
 
   MooseX::Getopt, but without implicit option generation
 

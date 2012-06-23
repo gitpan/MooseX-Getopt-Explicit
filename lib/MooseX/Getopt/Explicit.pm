@@ -1,7 +1,7 @@
 ## no critic (RequireUseStrict)
 package MooseX::Getopt::Explicit;
 {
-  $MooseX::Getopt::Explicit::VERSION = '0.01';
+  $MooseX::Getopt::Explicit::VERSION = '0.02';
 }
 
 ## use critic (RequireUseStrict)
@@ -31,7 +31,7 @@ MooseX::Getopt::Explicit - MooseX::Getopt, but without implicit option generatio
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -49,6 +49,9 @@ version 0.01
   ); # *Does* cause a Getopt option to be generated!
 
 =head1 DESCRIPTION
+
+B<NOTE> I didn't know about L<MooseX::Getopt::Strict> when I wrote this; use
+that instead!
 
 L<MooseX::Getopt> is nice, but I don't care for how it creates a command
 line option for every attribute in my classes unless explicitly overridden.
